@@ -1,0 +1,15 @@
+{
+  "name": "ezaltz-handi",
+  "version": "0.0.0",
+  "description": "EZAltz Handi",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
