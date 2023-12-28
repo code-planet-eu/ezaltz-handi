@@ -32,14 +32,14 @@ const consola_1 = __importDefault(require("consola"));
 const generator_1 = require("./lib/generator");
 function getDiscordId() {
     return new Promise((resolve, reject) => {
-        if (!fs.existsSync('./discord')) {
+        if (!fs.existsSync('./discord.txt')) {
             const rl = readline.createInterface({
                 input: process.stdin,
                 output: process.stdout,
             });
             rl.question('Enter your discord id: ', (discord) => {
                 if (discord) {
-                    fs.writeFileSync('./discord', discord);
+                    fs.writeFileSync('./discord.txt', discord);
                     resolve(discord);
                 }
                 else {
@@ -49,7 +49,7 @@ function getDiscordId() {
             });
         }
         else {
-            const discord = fs.readFileSync('./discord', 'utf8');
+            const discord = fs.readFileSync('./discord.txt', 'utf8');
             resolve(discord);
         }
     });
