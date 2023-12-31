@@ -4,10 +4,11 @@ Manual account creation from EZAltz. This is a temporary solution when ezaltz.co
 
 ## Navigation:
 
-- [Requirements](#requirements)
-- [Installation (via Git)](#installation-via-git)
-- [Installation (via Download)](#installation-via-download)
-- [Usage](#usage)
+- [Features](#%EF%B8%8F-features)
+- [Requirements](#%EF%B8%8F-requirements)
+- [Installation (via Git)](#-installation-via-git)
+- [Installation (via Download)](#%EF%B8%8F-requirements)
+- [Usage](#-usage)
 
 ## ⭐️ Features:
 
